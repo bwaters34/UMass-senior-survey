@@ -1,0 +1,6 @@
+mat.df <- matrix(c(1:16),nrow = 4, ncol = 4)
+rows <- c(1,4)
+print(mat.df[rows,])
+print(t(mat.df))
+print(mat.df)
+test.df <- t(mat.df[rows,])
